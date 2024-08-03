@@ -8,5 +8,10 @@ export default defineConfig({
     port: 5173
   },
   plugins: [react()],
+  build: {
+    rollupOptions: {
+      external: ['react-icons']
+    }
+  },
   base: "/grandhermes/"
 })
