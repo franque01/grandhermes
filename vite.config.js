@@ -10,7 +10,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['react-icons']
+      external: ['react-icons', 'lucide-react']
     }
   },
   base: "/grandhermes/"
